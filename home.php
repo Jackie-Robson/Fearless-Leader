@@ -15,13 +15,15 @@
 	</head>
 	<body>
 		<header>
-			<div class="hero-image">
+
+			<div class="header>
 				<div class="hero-text">
 					<h1>Iain Anderson</h1>
 					<hr style="border:1px solid white; width:200px">
 					<h3>Fearless leader of Cicero group</h3>
 				</div>
 			</div>
+
 			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 
 			<?php if ( 'container' == $container ) : ?>
@@ -50,7 +52,9 @@
 
 			</nav><!-- .site-navigation -->
 		</header><!-- Header -->
-		<section style="background-color: #545353; color: white;">
+
+		<section style="background-color: black; color: white;">
+
 			<div class="col-8" style="margin: 0px auto; padding: 1em;">
 				<article >
 					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -61,30 +65,44 @@
 
 			</div>
 		</section>
-		<div id="imageBreakleft">
-			<div class="hero-text">
-				<h1>Iain Anderson</h1>
-				<hr style="border:1px solid white; width:200px">
-				<h3>Fearless leader of Cicero group</h3>
-			</div>
-		</div>
 
-		<div id="imageBreakright">
-			<div class="hero-text">
-				<h1>Iain Anderson</h1>
-				<hr style="border:1px solid white; width:200px">
-				<h3>Fearless leader of Cicero group</h3>
+		<section style="height: 100vh; background-color: #545353; color: white;">
+
+			<div class="half-pint-hero-right">
+				<div class="half-pint-hero-text">
+					<h1>Iain Anderson</h1>
+					<hr style="border:1px solid white; width:200px">
+					<h3>Fearless leader of Cicero group</h3>
+				</div>
 			</div>
-		</div>
-		<section style="background-color: black; color: white;">
-			<div class="col-8" style="margin: 0px auto; padding: 1em;">
+
+			<div class="col-8, half-pint-section-text-left" style="margin: auto auto; padding: 1em;">
 				<article >
 					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 				</article>
 				<article style="margin: 1em auto" >
 					Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 				</article>
+			</div>
+		</section>
 
+		<section style="height: 100vh; background-color: black; color: white;">
+
+			<div class="half-pint-hero-left">
+				<div class="half-pint-hero-text">
+					<h1>Iain Anderson</h1>
+					<hr style="border:1px solid white; width:200px">
+					<h3>Fearless leader of Cicero group</h3>
+				</div>
+			</div>
+
+			<div class="col-8, half-pint-section-text-right" style="margin: 0px auto; padding: 1em;">
+				<article >
+					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				</article>
+				<article style="margin: 1em auto" >
+					Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+				</article>
 			</div>
 		</section>
 	</body>
