@@ -13,97 +13,101 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		<?php wp_head(); ?>
 	</head>
-	<body>
+	<body class="home-body">
 		<header>
 
-			<div class="header>
+			<div class="header">
 				<div class="hero-text">
 					<h1>Iain Anderson</h1>
 					<hr style="border:1px solid white; width:200px">
 					<h3>Fearless leader of Cicero group</h3>
 				</div>
 			</div>
+			<?php get_header(); ?>
 
-			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-
-			<?php if ( 'container' == $container ) : ?>
-				<div class="container">
-			<?php endif; ?>
-
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-
-					<!-- The WordPress Menu goes here -->
-					<?php wp_nav_menu(
-						array(
-							'theme_location'  => 'primary',
-							'container_class' => 'collapse navbar-collapse',
-							'container_id'    => 'navbarNavDropdown',
-							'menu_class'      => 'navbar-nav',
-							'fallback_cb'     => '',
-							'menu_id'         => 'main-menu',
-							'walker'          => new WP_Bootstrap_Navwalker(),
-						)
-					); ?>
-				<?php if ( 'container' == $container ) : ?>
-				</div><!-- .container -->
-				<?php endif; ?>
-
-			</nav><!-- .site-navigation -->
 		</header><!-- Header -->
 
-		<section style="background-color: black; color: white;">
+		<section class="darkest_section about">
 
-			<div class="col-8" style="margin: 0px auto; padding: 1em;">
+			<img src="https://cicero-group.com/wp-content/uploads/2017/05/Iain-Anderson.jpg" alt="">
+
+			<div class="col-sm-8">
 				<article >
-					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-				</article>
-				<article style="margin: 1em auto" >
-					Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+					This is the section were we tell the world what Iain is all about, we can add a good sized paragraph sumarizing the man himself.
 				</article>
 
 			</div>
 		</section>
 
-		<section style="height: 100vh; background-color: #545353; color: white;">
+		<section class="right-image dark_section">
 
-			<div class="half-pint-hero-right">
-				<div class="half-pint-hero-text">
-					<h1>Iain Anderson</h1>
+			<div class="image">
+				<div>
+					<h1>Project title</h1>
 					<hr style="border:1px solid white; width:200px">
-					<h3>Fearless leader of Cicero group</h3>
+					<h3>subtitle over an image relevant to the project.</h3>
 				</div>
 			</div>
 
-			<div class="col-8, half-pint-section-text-left" style="margin: auto auto; padding: 1em;">
-				<article >
+			<article>
+				<p>
+					This is where we will put your proudest achivement, whether it's about your status as a stonewall ambassador, or
+					how you're a Non executive director of Inovate Finance.
+				</p>
+				<p>it's up to you!</p>
+				<p>also don't worry about space in this section because it has a nifty scrolling mechanic, look!</p>
+				<p>
 					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-				</article>
-				<article style="margin: 1em auto" >
-					Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+				</p>
+			</article>
+		</section>
+
+		<section class="paralax-1">
+		</section>
+
+		<section class="darker_section">
+			<div class="col-sm-8">
+				<article >
+					We can add some more descriptive text here, not quite sure what but we'll think of somthing.
 				</article>
 			</div>
 		</section>
 
-		<section style="height: 100vh; background-color: black; color: white;">
+		<section class="paralax">
+		</section>
 
-			<div class="half-pint-hero-left">
-				<div class="half-pint-hero-text">
-					<h1>Iain Anderson</h1>
+		<section class="lightest_section">
+			<div class="col-sm-8">
+				<article >
+					We'll add some more text here too! but if you don't want to that's ok, we can just delete this bit!
+				</article>
+				<article >
+					(though we will loose one of those nifty looking graphic effects).
+				</article>
+			</div>
+		</section>
+
+		<section class="left-image dark_section">
+			<div class="image">
+				<div>
+					<h1>Iain Andersons projects</h1>
 					<hr style="border:1px solid white; width:200px">
-					<h3>Fearless leader of Cicero group</h3>
+					<h3>See what he's been up to.</h3>
 				</div>
 			</div>
 
-			<div class="col-8, half-pint-section-text-right" style="margin: 0px auto; padding: 1em;">
-				<article >
-					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-				</article>
-				<article style="margin: 1em auto" >
-					Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-				</article>
-			</div>
+			<article>
+				<p>
+					You name it, he's done it.
+				</p>
+				<p>
+					From being on the television to telling the big bosses what's what about LGBT issues.
+				</p>
+				<p>See what other amazing things he's done at the projects page.
+				</p>
+				<button type="button" class="btn btn-secondary">Take a look</button>
+			</article>
+
 		</section>
 	</body>
 </html>
