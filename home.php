@@ -105,7 +105,7 @@
 				</p>
 				<p>See what other amazing things he's done at the projects page.
 				</p>
-				<button type="button" class="btn btn-secondary">Take a look</button>
+				<a class="btn btn-secondary" href="http://localhost:8888/projects/" role="button">Projects page</a>
 			</article>
 
 		</section>
