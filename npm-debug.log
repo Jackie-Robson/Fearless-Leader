@@ -1,0 +1,107 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'compass/css3' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData compass/css3
+8 silly fetchOtherPackageData compass/css3
+9 silly cache add args [ 'compass/css3', null ]
+10 verbose cache add spec compass/css3
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'compass/css3',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'compass/css3',
+11 silly cache add   spec: 'github:compass/css3',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:compass/css3.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/compass/css3.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/compass/css3.git',
+11 silly cache add      gitUrl: 'git://github.com/compass/css3.git',
+11 silly cache add      shortcut: 'github:compass/css3',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/compass/css3/master/package.json' } }
+12 verbose addRemoteGit caching compass/css3
+13 verbose addRemoteGit compass/css3 is a repository hosted by github
+14 silly tryGitProto attempting to clone git://github.com/compass/css3.git
+15 silly tryClone cloning compass/css3 via git://github.com/compass/css3.git
+16 verbose tryClone git-github-com-compass-css3-git-67462eeb not in flight; caching
+17 verbose correctMkdir /Users/jackie.robson/.npm/_git-remotes correctMkdir not in flight; initializing
+18 verbose makeDirectory /Users/jackie.robson/.npm/_git-remotes creation not in flight; initializing
+19 silly makeDirectory /Users/jackie.robson/.npm/_git-remotes uid: 758260758 gid: 905971041
+20 info git [ 'clone',
+20 info git   '--template=/Users/jackie.robson/.npm/_git-remotes/_templates',
+20 info git   '--mirror',
+20 info git   'git://github.com/compass/css3.git',
+20 info git   '/Users/jackie.robson/.npm/_git-remotes/git-github-com-compass-css3-git-67462eeb' ]
+21 verbose git clone --template=/Users/jackie.robson/.npm/_git-remotes/_templates --mirror git://github.com/compass/css3.git /Users/jackie.robson/.npm/_git-remotes/git-github-com-compass-css3-git-67462eeb: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+22 silly tryHTTPS attempting to clone git+https://github.com/compass/css3.git
+23 silly tryClone cloning compass/css3 via git+https://github.com/compass/css3.git
+24 verbose tryClone git-https-github-com-compass-css3-git-9f727171 not in flight; caching
+25 verbose correctMkdir /Users/jackie.robson/.npm/_git-remotes correctMkdir not in flight; initializing
+26 info git [ 'clone',
+26 info git   '--template=/Users/jackie.robson/.npm/_git-remotes/_templates',
+26 info git   '--mirror',
+26 info git   'https://github.com/compass/css3.git',
+26 info git   '/Users/jackie.robson/.npm/_git-remotes/git-https-github-com-compass-css3-git-9f727171' ]
+27 verbose git clone --template=/Users/jackie.robson/.npm/_git-remotes/_templates --mirror https://github.com/compass/css3.git /Users/jackie.robson/.npm/_git-remotes/git-https-github-com-compass-css3-git-9f727171: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+28 silly trySSH attempting to clone git@github.com:compass/css3.git
+29 silly tryClone cloning compass/css3 via git@github.com:compass/css3.git
+30 verbose tryClone git-github-com-compass-css3-git-946bb95c not in flight; caching
+31 verbose correctMkdir /Users/jackie.robson/.npm/_git-remotes correctMkdir not in flight; initializing
+32 info git [ 'clone',
+32 info git   '--template=/Users/jackie.robson/.npm/_git-remotes/_templates',
+32 info git   '--mirror',
+32 info git   'git@github.com:compass/css3.git',
+32 info git   '/Users/jackie.robson/.npm/_git-remotes/git-github-com-compass-css3-git-946bb95c' ]
+33 error git clone --template=/Users/jackie.robson/.npm/_git-remotes/_templates --mirror git@github.com:compass/css3.git /Users/jackie.robson/.npm/_git-remotes/git-github-com-compass-css3-git-946bb95c: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+34 silly fetchPackageMetaData Error: Command failed: git clone --template=/Users/jackie.robson/.npm/_git-remotes/_templates --mirror git@github.com:compass/css3.git /Users/jackie.robson/.npm/_git-remotes/git-github-com-compass-css3-git-946bb95c
+34 silly fetchPackageMetaData xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+34 silly fetchPackageMetaData
+34 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:198:12)
+34 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+34 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+34 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:920:16)
+34 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+34 silly fetchPackageMetaData  error for compass/css3 { Error: Command failed: git clone --template=/Users/jackie.robson/.npm/_git-remotes/_templates --mirror git@github.com:compass/css3.git /Users/jackie.robson/.npm/_git-remotes/git-github-com-compass-css3-git-946bb95c
+34 silly fetchPackageMetaData xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+34 silly fetchPackageMetaData
+34 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:198:12)
+34 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+34 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+34 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:920:16)
+34 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+34 silly fetchPackageMetaData   killed: false,
+34 silly fetchPackageMetaData   code: 1,
+34 silly fetchPackageMetaData   signal: null,
+34 silly fetchPackageMetaData   cmd: 'git clone --template=/Users/jackie.robson/.npm/_git-remotes/_templates --mirror git@github.com:compass/css3.git /Users/jackie.robson/.npm/_git-remotes/git-github-com-compass-css3-git-946bb95c' }
+35 silly rollbackFailedOptional Starting
+36 silly rollbackFailedOptional Finishing
+37 silly runTopLevelLifecycles Finishing
+38 silly install printInstalled
+39 verbose stack Error: Command failed: git clone --template=/Users/jackie.robson/.npm/_git-remotes/_templates --mirror git@github.com:compass/css3.git /Users/jackie.robson/.npm/_git-remotes/git-github-com-compass-css3-git-946bb95c
+39 verbose stack xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+39 verbose stack
+39 verbose stack     at ChildProcess.exithandler (child_process.js:198:12)
+39 verbose stack     at emitTwo (events.js:106:13)
+39 verbose stack     at ChildProcess.emit (events.js:191:7)
+39 verbose stack     at maybeClose (internal/child_process.js:920:16)
+39 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+40 verbose cwd /Users/jackie.robson/Documents/sites/WP-playground/wp-content/themes/Fearless-Leader
+41 error Darwin 17.0.0
+42 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "compass/css3"
+43 error node v6.11.3
+44 error npm  v3.10.10
+45 error code 1
+46 error Command failed: git clone --template=/Users/jackie.robson/.npm/_git-remotes/_templates --mirror git@github.com:compass/css3.git /Users/jackie.robson/.npm/_git-remotes/git-github-com-compass-css3-git-946bb95c
+46 error xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+47 error If you need help, you may report this error at:
+47 error     <https://github.com/npm/npm/issues>
+48 verbose exit [ 1, true ]
