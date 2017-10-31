@@ -29,7 +29,7 @@
 
 		<section class="darkest_section about">
 
-			<img src="https://cicero-group.com/wp-content/uploads/2017/05/Iain-Anderson.jpg" alt="">
+				<img src="https://cicero-group.com/wp-content/uploads/2017/05/Iain-Anderson.jpg" alt="">
 
 			<div class="col-sm-8">
 				<article >
