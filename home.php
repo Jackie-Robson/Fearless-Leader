@@ -28,10 +28,10 @@
 		</header><!-- Header -->
 
 		<section class="darkest_section about">
-
-				<img src="https://cicero-group.com/wp-content/uploads/2017/05/Iain-Anderson.jpg" alt="">
-
 			<div class="col-sm-8">
+				<div class="iain mover">
+				</div>
+				<!-- <img class="mover" src="https://cicero-group.com/wp-content/uploads/2017/05/Iain-Anderson.jpg" alt=""> -->
 				<article >
 					This is the section were we tell the world what Iain is all about, we can add a good sized paragraph sumarizing the man himself.
 				</article>
@@ -62,7 +62,7 @@
 			</article>
 		</section>
 
-		<section class="paralax-1">
+		<section class="paralax" style="background-image: url('https://images.unsplash.com/photo-1431540015161-0bf868a2d407?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');">
 		</section>
 
 		<section class="darker_section">
@@ -73,7 +73,7 @@
 			</div>
 		</section>
 
-		<section class="paralax">
+		<section class="paralax" style="background-image: url('https://images.unsplash.com/photo-1476990789491-712b869b91a5?auto=format&fit=crop&w=1488&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');">
 		</section>
 
 		<section class="lightest_section">
@@ -110,4 +110,24 @@
 
 		</section>
 	</body>
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript">
+	// adds motion to paralax
+
+	$(document).ready(function() { if($(window).width() >= 1200){
+	var movementStrength = 15;
+	var height = movementStrength / $(window).height();
+	var width = movementStrength / $(window).width();
+	$(window).mousemove(function(e){
+						var pageX = e.pageX - ($(window).width() / 1.5);
+						var pageY = e.pageY - ($(window).height() / 2);
+						var newvalueX = width * pageX - 10;
+						var newvalueY = height * pageY  -20;
+						$('.mover').css("background-position", newvalueX+"px     "+newvalueY+"px");
+	});
+}});
+	</script>
 </html>
