@@ -39,6 +39,9 @@
 			</div>
 		</section>
 
+		<section class="paralax" style="background-image: url('https://i.imgur.com/cKqb747.jpg);">
+		</section>
+
 		<section class="right-image dark_section">
 
 			<div class="image">
@@ -80,9 +83,6 @@
 			<div class="col-sm-8">
 				<article >
 					We'll add some more text here too! but if you don't want to that's ok, we can just delete this bit!
-				</article>
-				<article >
-					(though we will loose one of those nifty looking graphic effects).
 				</article>
 			</div>
 		</section>
